@@ -46,7 +46,7 @@ ui <- fluidPage(
              
              fluidRow(
                h3(strong("Background"), style = "text-align: left"),
-               h4("House is always considered one of the most valuable assets that one person aspires to own in their life. This is not an easy goal for everyone, many people have to work 10-15 years or even more to save enough money to buy one. Normally, a transaction is made based on the negotiation between the buyer and an agent. An agent is always seeking to sell at a high value to gain greater commission, therefore, if a buyer does not analyze the house thoroughly, the buyer can easily be scammed.",
+               h4("Housing is considered one of the most fundamental needs that one person aspires to own in their life. This is not an easy goal for everyone, many people have to work 10-15 years or even more to save enough money to buy one. Normally, a transaction is made based on the negotiation between the buyer and an agent. An agent is always seeking to sell at a high value to gain greater commission, therefore, if a buyer does not analyze the house thoroughly, the buyer can easily be scammed.",
                   style = "font-size:15px;"),
                h4("The introduced App can be used as a tool to assist buyers in evaluating the value of a house based on multiple variables and recorded values of other houses in the same area.",
                   style = "font-size:15px;"),
@@ -57,9 +57,10 @@ ui <- fluidPage(
                   style = "font-size:15px;"),
                tableOutput("description"),
                h3(strong("Instructions"), style = "text-align: left"),
-               h4("The App contains 2 sections:", style = "font-size:15px;"),
-               h4("1. Train Model: This section allows users to select cluster method to train the model.", style = "font-size:15px;"),
-               h4("2. Search: This section allows users to search information of a specific location based on longitude and latitude inputs and view the estimated house value in the area using trained model.", style = "font-size:15px;"),
+               h4("The App contains 3 sections:", style = "font-size:15px;"),
+               h4("1. About: This section provides the background of application and descriptions on data source.", style = "font-size:15px;"),
+               h4("2. Train Model: This section allows users to select cluster method to train the model.", style = "font-size:15px;"),
+               h4("3. Search: This section allows users to search information of a specific location based on longitude and latitude inputs and view the estimated house value in the area using trained model.", style = "font-size:15px;"),
              )
     ),
     
