@@ -5,9 +5,9 @@ account: minhdc2
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8674503
-bundleId: 7069020
+bundleId: 7073195
 url: https://minhdc2.shinyapps.io/TrentU_TermProject/
-when: 1681095157.53237
-lastSyncTime: 1681095157.53239
+when: 1681176231.14546
+lastSyncTime: 1681176231.14548
 asMultiple: FALSE
 asStatic: FALSE
